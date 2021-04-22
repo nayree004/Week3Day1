@@ -1,0 +1,67 @@
+
+.header {
+    width: auto;
+    height: 50px;
+    background-color: rgb(231, 169, 55);
+    display: block;
+    position: absolute;
+    top: -16px;
+    left: -10px;
+    right: -10px;
+    
+}
+.textInline {
+    padding: 10px;
+}
+#Title {
+    padding-left: 15px;
+    padding-top: 8px;
+    float: left;
+    font-size: 13px;
+    color: rgb(252, 251, 236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav {
+    padding-right: 15px;
+    padding-top: 22px;
+    float: right;
+    font-size: 12px;
+    color: rgb(252, 251, 236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(252, 251, 236);
+}
+.box {
+    width: 200px;
+    float: left;
+    height: 370px;
+    border: 2px  rgb(231, 169, 55) solid;
+    border-radius: 5px;
+    margin: 20px;
+    margin-top: 40px;
+    background-color: rgb(253, 252, 249);
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+#intro {
+    font-size: 20px;
+    padding-left: 5px;
+}
+#randomContent {
+    font-size: 10px;
+    padding-left: 10px;
+}
+.moreInfo {
+    margin: 30px 10px;
+    width: 180px;
+    font-size: 10px;
+    background-color: rgb(231, 169, 55);
+    border-color: rgb(231, 169, 55);
+    border-radius: 3px;
+    color: rgb(252, 251, 236);
+    
+}
+
+
