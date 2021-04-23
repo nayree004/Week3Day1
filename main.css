@@ -11,30 +11,36 @@
     
 }
 .textInline {
+    display: flex;
+    justify-content: space-between;
     padding: 10px;
+
 }
 #Title {
     padding-left: 15px;
     padding-top: 8px;
-    float: left;
     font-size: 13px;
     color: rgb(252, 251, 236);
     font-family: Arial, Helvetica, sans-serif;
 }
 #nav {
-    padding-right: 15px;
-    padding-top: 22px;
-    float: right;
+    display: flex;
+    list-style-type: none;
     font-size: 12px;
     color: rgb(252, 251, 236);
     font-family: Arial, Helvetica, sans-serif;
 }
+#end {
+    padding: 8px 5px;
+}
 body {
     background-color: rgb(252, 251, 236);
+    display: flex;
+    flex-wrap: wrap;
 }
 .box {
+    justify-content: space-around;
     width: 200px;
-    float: left;
     height: 370px;
     border: 2px  rgb(231, 169, 55) solid;
     border-radius: 5px;
